@@ -1,0 +1,12 @@
+.out {
+  transform: translateY(-100%);
+  transition: transform 0.2s ease-in-out;
+}
+.outBar {
+  transform: translateX(100%);
+  transition: transform 0.2s ease-in-out;
+}
+.inBar {
+  transform: translateX(0%);
+  transition: transform 0.2s ease-in-out;
+}
