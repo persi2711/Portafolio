@@ -5,6 +5,7 @@ import { blockContentComponent } from '../../Components/BlockContentComponent/bl
 @Component({
   selector: 'startPage',
   templateUrl: 'startPage.component.html',
+  styleUrl: 'startPage.component.css',
   standalone: true,
   imports: [initialScreenComponent, blockContentComponent],
 })
