@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'blockContent',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   standalone: true,
 })
 export class blockContentComponent implements OnInit {
+  Titulo = input<string>('Titulo');
   constructor() {}
-
   ngOnInit() {}
 }

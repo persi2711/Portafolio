@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { navBarComponent } from '../Components/NavBarComponent/navBar.component';
+import { navBarComponent } from './Components/NavBarComponent/navBar.component';
 
 @Component({
   selector: 'startLayout',
